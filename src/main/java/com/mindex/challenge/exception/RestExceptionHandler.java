@@ -25,7 +25,7 @@ import static org.springframework.http.HttpStatus.BAD_REQUEST;
 import static org.springframework.http.HttpStatus.NOT_FOUND;
 
 /**
- * Error Handler for all Compile time Errors
+ * Exception Handler for all Spring Internal Exception
  */
 
 @Order(Ordered.HIGHEST_PRECEDENCE)
