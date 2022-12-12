@@ -40,9 +40,9 @@ REPORTING STRUCTURE
     * APIError : Compile time errors.Occurs while parsing the JSON file
   
   * Exception Handlers
-    * Compile Time Error Handler
+    * Spring Internal Errors Handler
       * RestExceptionHandler
-    * Runtime Exception Handler
+    * User Defined Exception Handler
       * GlobalExceptionHandler
 
 * Performed end to end REST API testing using POSTMAN
