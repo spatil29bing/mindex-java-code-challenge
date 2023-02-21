@@ -23,7 +23,7 @@ REPORTING STRUCTURE
     * If the employee with given employeeId is not found in database then exception is thrown. 
     * Compensation REST API only add compensation for existing employees.
     * For adding Compensation for new Employee first create new Employee then add compensation for that employee.
-  * Reporting Structure Loic
+  * Reporting Structure Logic
     * Output :
       * ResponseEntity<List<Object>> contains two output List<List<Employee><ReportingStructure>>
         * List<Employee> : Details about the employee with given employee id, and it's all directReports.
